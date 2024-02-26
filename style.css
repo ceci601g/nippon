@@ -13,7 +13,7 @@ body{
 .backgroundpicture{
     margin: 0;
     padding: 0;
-    height: 650px;
+    height: 800px;
     background-image: url('img/baggrund.png');
     background-size: cover;
     background-position: center;
@@ -118,26 +118,106 @@ p {
 }
 
 /*indsæt baggrundbillede der dækker siden og er fixed og relative*/
-.nemtsection{
+/* Placer indhold i kolonner */
+.nemtsection {
     margin: 30px 0px;
     padding: 0;
-    height: 650px;
+    height: 700px;
     background-image: url('img/baggrund2.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    display: flex;
+    flex-direction: column; /* Sætter indhold i kolonner */
 }
 
-/*style tekstboxen ovenpå billedet*/
-.nemtbox{
-    position: absolute;
-    top: 0%; 
-    right: 0%; 
-    text-align: center; 
+/* Style tekstboksen */
+/* Style tekstboksen */
+.nemtbox {
+    text-align: center;
     padding: 20px;
     background-color: #B6312D;
-    width: 600px;
+    width: 700px;
+    height: 700px;
     color: white;
+    z-index: 500;
+    align-self: flex-end; /* Placerer boksen i bunden af .nemtsection */
 }
+
+h2{
+    font-size: 30px;
+    margin: 15px;
+}
+
+/* Juster størrelse på billeder */
+.nemtbox img {
+    width: 75px;
+    margin-bottom: 20px; /* Tilføj lidt afstand under billederne */
+}
+.instagramtekst{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.instagramtekst h3{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.carousel{
+    height: 500px;
+    margin-top: 30px;
+    background-color: #B6312D;
+    justify-content: space-between;
+    width: 100%; /* Sørg for at karusellen passer til skærmens bredde */
+    overflow: hidden; /* Skjul billeder, der er uden for karusellens rammer */
+    white-space: nowrap; 
+    display: flex;
+    justify-content: center; /* Centrer indholdet horisontalt */
+    align-items: center;
+}
+
+.carousel img{
+    width: 400px;
+}
+
+carousel img {
+    display: inline-block; /* Vis billeder ved siden af hinanden */
+    max-width: 100%; /* Sørg for, at billedet ikke strækker sig ud over karusellen */
+    height: auto; /* Behold billedets proportioner */
+}
+
+/* Opret animation */
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Starter fra original position */
+    }
+    100% {
+        transform: translateX(-100%); /* Billederne bevæger sig til venstre */
+    }
+}
+
+/* Anvend animationen på karusellen */
+.carousel img {
+    animation: slide 10s linear infinite; /* 10s er varigheden af animationen */
+}
+
+footer section {
+    display: flex; /* Gør section til en flex-container */
+    justify-content: space-around; /* Fordeler pladsen jævnt mellem elementerne */
+  }
+  
+  footer section > div {
+    padding: 20px; /* Tilføjer padding for at give plads mellem indholdet og kanten */
+  }
+  
+  footer section > div h3 {
+    margin-bottom: 10px; /* Tilføjer lidt afstand under overskrifterne */
+  }
+  
+
+  #footerlogo {
+    width: 80px;
+  }
