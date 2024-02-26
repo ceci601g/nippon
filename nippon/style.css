@@ -170,5 +170,9 @@ h2{
     height: 500px;
     margin-top: 30px;
     background-color: #B6312D;
+    justify-content: space-between;
 }
 
+.instagramopslag img{
+    width: 400px;
+}
