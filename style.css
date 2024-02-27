@@ -153,17 +153,20 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 90%;
+    top: 50%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
-    padding: 10px;
-    border: 1px solid #FFF5ED;
+    opacity: 85%;
     border-radius: 5px;
-    z-index: 1000; /* Sørg for, at boksen er foran andre elementer */
+    z-index: 5;
+    text-align: center;
+    padding-top: 20px;
+    
 }
 
-h2{
+
+.nemtbox h2{
     font-size: 30px;
     margin: 15px;
 }
