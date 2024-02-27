@@ -146,6 +146,23 @@ p {
     align-self: flex-end; /* Placerer boksen i bunden af .nemtsection */
 }
 
+.textbox {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Første række for h1, anden række for p, tredje række for greetingMessage */
+}
+
+.greeting-box {
+    position: absolute;
+    top: 90%;
+    right: 20px;
+    background-color:#B6312D;
+    color: #FFF5ED;
+    padding: 10px;
+    border: 1px solid #FFF5ED;
+    border-radius: 5px;
+    z-index: 1000; /* Sørg for, at boksen er foran andre elementer */
+}
+
 h2{
     font-size: 30px;
     margin: 15px;
