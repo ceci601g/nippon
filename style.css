@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: playfair Display;
 }
 /*skifte baggrundsfarve*/
 body{
@@ -146,7 +147,36 @@ p {
     align-self: flex-end; /* Placerer boksen i bunden af .nemtsection */
 }
 
-h2{
+.textbox {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Første række for h1, anden række for p, tredje række for greetingMessage */
+}
+
+.greeting-box {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    background-color:#B6312D;
+    color: #FFF5ED;
+    opacity: 85%;
+    border-radius: 5px;
+    z-index: 5;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+#greetingMessage{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#openingHoursMessage #greetingMessage{
+    padding: 0;
+}
+
+
+.nemtbox h2{
     font-size: 30px;
     margin: 15px;
 }
@@ -193,14 +223,14 @@ carousel img {
 /******************************************************Favoritkassen start*************************************************************/
 /* Container styling */
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 /* Favorite Box styling */
 .favorite-box {
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 2rem;
     text-align: center;
     color: #000;
@@ -245,7 +275,7 @@ carousel img {
 
 .recipe-item img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .overlay {
@@ -280,9 +310,6 @@ carousel img {
 }
 
 /********************************************Favoritkassen slut****************************************************************/
-
-/********************************************************** om os side*****************************************************/
-
 
 .container {
     width: 80%;
