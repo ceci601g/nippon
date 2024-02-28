@@ -427,8 +427,8 @@ font-size: 50px;
     .contact-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
+        margin-left: 150px;
         padding-top: 20px; /* Add some space at the top */
     }
     
@@ -445,13 +445,21 @@ font-size: 50px;
 
 .kontakt-box {
     background-color: #bc4f4c;
-    align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
     max-width: 400px;
+    height: 500px;
     width: 100%;
+}
+
+.kontaktbaggrund{
+    background-color: #FFF5ED;
+    background-image: url('/img/baggrund-page.jpg');
+    background-size: cover; /* Dette sikrer, at baggrundsbilledet dækker hele skærmområdet */
+    background-repeat: no-repeat; /* Dette forhindrer baggrundsbilledet i at gentage sig */
+
 }
 
 form {
@@ -481,7 +489,7 @@ button {
     color: #B6312D;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 75px;
     width: 100%;
     max-width: 200px;
     border-radius: 20px;
