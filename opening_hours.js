@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 openingHoursMessage = `Telefonen lukker meget snart. Åben indtil${currentOpeningHours.close}:00.`;
             } 
              else {
-                openingHoursMessage = `Telefonen er lukket. God weekend`;
+                openingHoursMessage = `Telefonen er lukket. Vi åbner igen kl 10`;
             }
         }
     }

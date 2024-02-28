@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: playfair Display;
+   
 }
 /*skifte baggrundsfarve*/
 body{
@@ -158,7 +159,7 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
@@ -176,7 +177,8 @@ p {
 }
 
 #openingHoursMessage #greetingMessage{
-    padding: 0;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -319,6 +321,7 @@ carousel img {
 
 .main-container{
     position: relative;
+    overflow: hidden;
 }
 .container {
     width: 80%;
@@ -335,8 +338,8 @@ font-size: 50px;
     text-align: left;
     font-size: 45px;
     font-weight: bold;
-    margin-bottom: 20px; /* Adjusted margin for better spacing */
-    margin-top: 100px;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    margin-top: 20px;
     color: #B6312D;
 }
 
@@ -357,17 +360,26 @@ font-size: 50px;
     flex: 1;
     margin-right: 20px;
     border-radius: 10px;
+    margin-bottom: 10px;
    
    
 }
 
 .left-image{
-    left: 1000%;
+    position: relative;
+    left: 50%;
+    width: 120%;
+   
 }
-
+.right-image{
+    position: relative;
+    right:50%;
+    width: 120%;
+}
 .image img {
-    width: 100%; /* Adjusted to take 100% of the container */
-  
+ width: 300%; /* Adjusted to take 100% of the container */
+ max-width: 100%;
+  height: auto;
 }
 
 
@@ -375,11 +387,12 @@ font-size: 50px;
 .content {
     flex: 1;
     margin-right: 30px; /* Adjusted margin for better spacing */
+    
 }
 
 .content p{
     font-size: 17px;
-    line-height: 1.6;
+    line-height: 1.9;
     margin-bottom: 20px
 
 }
