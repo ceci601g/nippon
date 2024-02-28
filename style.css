@@ -8,6 +8,10 @@
 /*skifte baggrundsfarve*/
 body{
     background-color: #FFF5ED;
+    background-image: url('/img/baggrund-page.jpg');
+    background-size: cover; /* Dette sikrer, at baggrundsbilledet dækker hele skærmområdet */
+    background-repeat: no-repeat; /* Dette forhindrer baggrundsbilledet i at gentage sig */
+
 }
 
 /* gøre baggrundsbilledet fixed, relative og fylde hele skærmen*/
@@ -238,14 +242,14 @@ carousel img {
 
 .favorite-box h2{
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .favorite-box button {
     margin-top: 50px;
     background-color: #B6312D;
     color: #fff;
-    padding: 1rem 5rem;
+    padding: 1rem 0rem;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -255,7 +259,9 @@ carousel img {
 /* Recipe styling */
 
 .container h2{
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .recipe {
@@ -264,6 +270,8 @@ carousel img {
 }
 
 .recipe-images {
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 70px;
@@ -505,9 +513,9 @@ button {
     cursor: pointer;
     font-size: 1em;
 }
-/*********************************************************MÅLTIDKASSER SILJA***************************************************************/
+/*********************************************************MÅLTIDKASSER***************************************************************/
 
-/*********************************************************MÅLTIDKASSER SILJA***************************************************************/
+/*********************************************************MÅLTIDKASSER ***************************************************************/
 
 /* Container styling */
 .container {
@@ -599,7 +607,7 @@ button {
     color: #fff;
 }
 
-/*********************************************************MÅLTIDKASSER SILJASLUT***************************************************************/
+/*********************************************************MÅLTIDKASSER SILJA SLUT***********************************************************/
 
 /* Container styling */
 .container {
