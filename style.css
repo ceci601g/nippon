@@ -458,8 +458,8 @@ font-size: 50px;
 
 .kontaktbaggrund {
     background-color: #FFF5ED;
-    background-image: url('img/nippon.png');
-    background-position: 20%;
+    background-image: url('img/nipponkas.png');
+    background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
