@@ -307,16 +307,22 @@ carousel img {
     margin-bottom: 10px;
     text-decoration: none;
     color: #fff;
+}/****************************** om os side*******************************************/
+
+.main-container{
+    position: relative;
 }
-
-/********************************************Favoritkassen slut****************************************************************/
-
 .container {
     width: 80%;
     margin: 50px auto;
     padding: 20px;
 }
 
+.sidenavn{
+margin-top: 200px;
+text-align: center;
+font-size: 50px;
+}
 .title {
     text-align: left;
     font-size: 45px;
@@ -343,10 +349,13 @@ carousel img {
     flex: 1;
     margin-right: 20px;
     border-radius: 10px;
+   
+   
 }
 
 .image img {
-    width: 90%; /* Adjusted to take 100% of the container */
+    width: 100%; /* Adjusted to take 100% of the container */
+  
 }
 
 
@@ -384,7 +393,114 @@ carousel img {
     margin-right: 30px;
 }
 
+
+/** styling af kontakt os */
+
+
+
+    
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px; /* Add some space at the top */
+    }
+    
+
+
+
+.contact-container h2 {
+    color: #B6312D;
+}
+
+.contact-container p {
+    margin-bottom: 20px; /* Add some space between the <p> and .kontakt-box */
+}
+
+.kontakt-box {
+    background-color: #bc4f4c;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #B6312D;
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    justify-content: space-between;
+    border-radius: 40px;
+    border: 1px solid #FFF5ED; /* Add a border color */
+}
+
+button {
+    padding: 11px 20px;
+    background-color: #FFF5ED;
+    color: #B6312D;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
 /***************************** om os side slut ******************************/
+
+/**** styling af kurv start****/
+.error-container {
+    text-align: center;
+}
+
+.error-container h1 {
+    color: #B6312D;
+    font-size: 128px;
+    margin-top: 200px;
+    font-weight: bold;
+    
+}
+
+.error-container p {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.error-container img {
+    width: 250px; /* Adjust the size as needed */
+    margin-bottom: 30px;
+   
+    align-items: center;
+    max-width: 100%;
+}
+
+.error-container button {
+    padding: 10px 20px;
+    background-color: #B6312D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
 /*********************************************************MÅLTIDKASSER SILJA***************************************************************/
 
 /*********************************************************MÅLTIDKASSER SILJA***************************************************************/
