@@ -424,46 +424,51 @@ font-size: 50px;
 
 
     
-    .contact-container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 150px;
-        padding-top: 20px; /* Add some space at the top */
-    }
-    
-
-
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Til relative positionering af det indre indhold */
+}
 
 .contact-container h2 {
-    color: #B6312D;
+    color: #ffffff;
+    font-size: 35px;
+    padding-bottom: 10px;
 }
 
 .contact-container p {
-    margin-bottom: 20px; /* Add some space between the <p> and .kontakt-box */
+    margin-bottom: 20px;
+}
+
+#kontaktoverskrift{
+    color: #B6312D;
 }
 
 .kontakt-box {
-    background-color: #bc4f4c;
+    background-color: #B6312D;
+    opacity: 90%;
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
     padding: 20px;
-    max-width: 400px;
-    height: 500px;
+    max-width: 350px;
+    height: 450px;
     width: 100%;
 }
 
-.kontaktbaggrund{
+.kontaktbaggrund {
     background-color: #FFF5ED;
-    background-image: url('/img/baggrund-page.jpg');
-    background-size: cover; /* Dette sikrer, at baggrundsbilledet dækker hele skærmområdet */
-    background-repeat: no-repeat; /* Dette forhindrer baggrundsbilledet i at gentage sig */
-
+    background-image: url('img/kontaktbillede.jpg');
+    background-position: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start; /* Juster til venstre */
 }
 
 form {
     text-align: center;
+    margin-right: 20px; /* Tilføj passende margin */
 }
 
 label {
@@ -480,7 +485,7 @@ input {
     margin-top: 15px;
     justify-content: space-between;
     border-radius: 40px;
-    border: 1px solid #FFF5ED; /* Add a border color */
+    border: 1px solid #FFF5ED;
 }
 
 button {
@@ -494,6 +499,7 @@ button {
     max-width: 200px;
     border-radius: 20px;
 }
+
 
 /***************************** om os side slut ******************************/
 
