@@ -9,6 +9,10 @@
 /*skifte baggrundsfarve*/
 body{
     background-color: #FFF5ED;
+    background-image: url('/img/baggrund-page.jpg');
+    background-size: cover; /* Dette sikrer, at baggrundsbilledet dækker hele skærmområdet */
+    background-repeat: no-repeat; /* Dette forhindrer baggrundsbilledet i at gentage sig */
+
 }
 
 /* gøre baggrundsbilledet fixed, relative og fylde hele skærmen*/
@@ -155,7 +159,7 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
@@ -173,7 +177,8 @@ p {
 }
 
 #openingHoursMessage #greetingMessage{
-    padding: 0;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -239,14 +244,14 @@ carousel img {
 
 .favorite-box h2{
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .favorite-box button {
     margin-top: 50px;
     background-color: #B6312D;
     color: #fff;
-    padding: 1rem 5rem;
+    padding: 1rem 0rem;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -256,7 +261,9 @@ carousel img {
 /* Recipe styling */
 
 .container h2{
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .recipe {
@@ -265,6 +272,8 @@ carousel img {
 }
 
 .recipe-images {
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 70px;
@@ -418,8 +427,8 @@ font-size: 50px;
     .contact-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
+        margin-left: 150px;
         padding-top: 20px; /* Add some space at the top */
     }
     
@@ -436,13 +445,21 @@ font-size: 50px;
 
 .kontakt-box {
     background-color: #bc4f4c;
-    align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
     max-width: 400px;
+    height: 500px;
     width: 100%;
+}
+
+.kontaktbaggrund{
+    background-color: #FFF5ED;
+    background-image: url('/img/baggrund-page.jpg');
+    background-size: cover; /* Dette sikrer, at baggrundsbilledet dækker hele skærmområdet */
+    background-repeat: no-repeat; /* Dette forhindrer baggrundsbilledet i at gentage sig */
+
 }
 
 form {
@@ -472,7 +489,7 @@ button {
     color: #B6312D;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 75px;
     width: 100%;
     max-width: 200px;
     border-radius: 20px;
@@ -517,9 +534,9 @@ button {
     cursor: pointer;
     font-size: 1em;
 }
-/*********************************************************MÅLTIDKASSER SILJA***************************************************************/
+/*********************************************************MÅLTIDKASSER***************************************************************/
 
-/*********************************************************MÅLTIDKASSER SILJA***************************************************************/
+/*********************************************************MÅLTIDKASSER ***************************************************************/
 
 /* Container styling */
 .container {
@@ -611,7 +628,7 @@ button {
     color: #fff;
 }
 
-/*********************************************************MÅLTIDKASSER SILJASLUT***************************************************************/
+/*********************************************************MÅLTIDKASSER SILJA SLUT***********************************************************/
 
 /* Container styling */
 .container {
