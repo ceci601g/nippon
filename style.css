@@ -155,7 +155,7 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
@@ -173,7 +173,8 @@ p {
 }
 
 #openingHoursMessage #greetingMessage{
-    padding: 0;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 
