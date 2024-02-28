@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } else if (timeUntilClosing > 120) {
                 openingHoursMessage = `Telefonen lukker snart. Åben indtil ${currentOpeningHours.close}:00.`;
             } else if (timeUntilClosing > 60) {
-                openingHoursMessage = `Telefonen lukker meget snart. Åben indtil${currentOpeningHours.close}:00.`;
+                openingHoursMessage = `Telefonen lukker meget snart. Åben indtil ${currentOpeningHours.close}:00.`;
             } 
              else {
                 openingHoursMessage = `Telefonen er lukket. Vi åbner igen kl 10`;
