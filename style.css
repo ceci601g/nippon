@@ -353,6 +353,10 @@ font-size: 50px;
    
 }
 
+.left-image{
+    left: 1000%;
+}
+
 .image img {
     width: 100%; /* Adjusted to take 100% of the container */
   
