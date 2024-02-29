@@ -258,6 +258,24 @@ carousel img {
     font-size: 1rem;
 }
 
+.favoritinformation{
+    display: flex;
+}
+
+.favoritbillede {
+    margin-right: 20px; /* Tilføj margen mellem boksene */
+}
+
+.favoritbillede img {
+    width: 100px; /* Juster bredden efter behov */
+    height: auto; /* Juster højden automatisk for at bevare proportionerne */
+}
+
+.favoritbillede p {
+    margin-top: 10px; /* Tilføj lidt afstand mellem billedet og teksten */
+    text-align: center; /* Juster teksten til at være centralt */
+}
+
 /* Recipe styling */
 
 .container h2{
