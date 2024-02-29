@@ -159,7 +159,7 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 60%;
+    top: 45%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
@@ -260,14 +260,15 @@ carousel img {
 
 .favoritinformation{
     display: flex;
+    justify-content: center;
 }
 
 .favoritbillede {
-    margin-right: 20px; /* Tilføj margen mellem boksene */
+    margin: 20px 80px 0px 80px; /* Tilføj margen mellem boksene */
 }
 
 .favoritbillede img {
-    width: 100px; /* Juster bredden efter behov */
+    width: 50px; /* Juster bredden efter behov */
     height: auto; /* Juster højden automatisk for at bevare proportionerne */
 }
 
