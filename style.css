@@ -159,7 +159,7 @@ p {
 
 .greeting-box {
     position: absolute;
-    top: 60%;
+    top: 45%;
     right: 20px;
     background-color:#B6312D;
     color: #FFF5ED;
@@ -256,6 +256,25 @@ carousel img {
     border-radius: 25px;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.favoritinformation{
+    display: flex;
+    justify-content: center;
+}
+
+.favoritbillede {
+    margin: 20px 80px 0px 80px; /* Tilføj margen mellem boksene */
+}
+
+.favoritbillede img {
+    width: 50px; /* Juster bredden efter behov */
+    height: auto; /* Juster højden automatisk for at bevare proportionerne */
+}
+
+.favoritbillede p {
+    margin-top: 10px; /* Tilføj lidt afstand mellem billedet og teksten */
+    text-align: center; /* Juster teksten til at være centralt */
 }
 
 /* Recipe styling */
